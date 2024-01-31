@@ -1,10 +1,10 @@
 import './App.css';
-import {Routes, Route, Link} from "react-router-dom";
+import {Routes, Route } from "react-router-dom";
 import Counter from "./components/Counter/Counter";
 import Layout from "./Layout";
 import Modal from "./components/Modal/Modal";
 import Quiz from "./components/Quiz/Quiz";
-import styles from "./Layout.module.css";
+
 
 function App() {
   return (
